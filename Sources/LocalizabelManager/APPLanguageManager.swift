@@ -9,7 +9,7 @@
 import UIKit
 
 let APPUserLanguageKey:String = "CLUserLanguageKey"
-class APPLanguageManager: NSObject {
+public class APPLanguageManager: NSObject {
     class func setUserLanguage(userLaguage:String){
         NotificationCenter.default.post(name: NSNotification.Name("AppLanguage"), object: nil, userInfo: ["laungage" : userLaguage])
         if (userLaguage.isEmpty) {

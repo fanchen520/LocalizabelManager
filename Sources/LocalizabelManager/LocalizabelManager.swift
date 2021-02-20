@@ -3,8 +3,4 @@ struct LocalizabelManager {
     func textPrint() {
         print(text)
     }
-    
-    func resetAppBundle() {
-        APPBundle.resetBundle()
-    }
 }
