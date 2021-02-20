@@ -7,6 +7,7 @@ final class LocalizabelManagerTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
         XCTAssertEqual(LocalizabelManager().text, "Hello, World!")
+        LocalizabelManager.init().textPrint()
     }
 
     static var allTests = [
